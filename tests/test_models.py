@@ -1,6 +1,5 @@
 """
 Test cases for Account Model
-
 """
 import logging
 import unittest
