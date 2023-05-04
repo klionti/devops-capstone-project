@@ -1,6 +1,5 @@
 """
 Models for Account
-
 All of the models are stored in this module
 """
 import logging
@@ -111,7 +110,6 @@ class Account(db.Model, PersistentBase):
     def deserialize(self, data):
         """
         Deserializes a Account from a dictionary
-
         Args:
             data (dict): A dictionary containing the resource data
         """
@@ -137,7 +135,6 @@ class Account(db.Model, PersistentBase):
     @classmethod
     def find_by_name(cls, name):
         """Returns all Accounts with the given name
-
         Args:
             name (string): the name of the Accounts you want to match
         """
